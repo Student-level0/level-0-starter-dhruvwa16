@@ -2,7 +2,7 @@ package day1;
 
 public class ForLoopGauntlet {
 	public static void main(String[] args) {
-		challenge8();
+		challenge7();
 		
 	
 	
@@ -78,13 +78,16 @@ public class ForLoopGauntlet {
 						} 
 							
 					 public static void challenge8(){
-							for (int i = 1; i < 8; ) {
+						 int x = 1
+							for (int i = 0; i < 3;i++ ) {
 								
 								for (int j = 0; j < 3; j++) {
 								
 									
-									System.out.println(i);
+									System.out.print(x);
+									x++;
 								}
+								System.out.println();
 							}
 							
 							} 
